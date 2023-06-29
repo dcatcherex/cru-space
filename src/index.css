@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+  .btn {
+      @apply
+      bg-sky-500
+      hover:bg-gray-700
+      text-white
+      py-2
+      px-4
+      m-0.5
+      text-lg
+      rounded-md
+  }
+
+  .btnsmall {
+    @apply
+    bg-sky-500
+    hover:bg-sky-900
+    text-white
+    py-1
+    px-3
+    rounded-full
+  }
+  .checkr {
+    @apply
+    border-2
+    border-rose-900
+  }
+  .checkb {
+    @apply
+    border-2
+    border-blue-900
+  }
+  .checkg {
+    @apply
+    border-2
+    border-green-900
+  }
+}
